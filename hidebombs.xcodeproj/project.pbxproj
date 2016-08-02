@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC6F45EE1D5128C8005110BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F45ED1D5128C8005110BE /* AppDelegate.swift */; };
+		FC6F45F01D5128C8005110BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F45EF1D5128C8005110BE /* ViewController.swift */; };
+		FC6F45F31D5128C8005110BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6F45F11D5128C8005110BE /* Main.storyboard */; };
+		FC6F45F51D5128C8005110BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6F45F41D5128C8005110BE /* Assets.xcassets */; };
+		FC6F45F81D5128C8005110BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6F45F61D5128C8005110BE /* LaunchScreen.storyboard */; };
+		FC6F46031D5128C9005110BE /* hidebombsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F46021D5128C9005110BE /* hidebombsTests.swift */; };
+		FC6F460E1D5128C9005110BE /* hidebombsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F460D1D5128C9005110BE /* hidebombsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC6F45FF1D5128C9005110BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6F45E21D5128C8005110BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6F45E91D5128C8005110BE;
+			remoteInfo = hidebombs;
+		};
+		FC6F460A1D5128C9005110BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6F45E21D5128C8005110BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6F45E91D5128C8005110BE;
+			remoteInfo = hidebombs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC6F45EA1D5128C8005110BE /* hidebombs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hidebombs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6F45ED1D5128C8005110BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC6F45EF1D5128C8005110BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC6F45F21D5128C8005110BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC6F45F41D5128C8005110BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6F45F71D5128C8005110BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC6F45F91D5128C8005110BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6F45FE1D5128C9005110BE /* hidebombsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hidebombsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6F46021D5128C9005110BE /* hidebombsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hidebombsTests.swift; sourceTree = "<group>"; };
+		FC6F46041D5128C9005110BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6F46091D5128C9005110BE /* hidebombsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hidebombsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6F460D1D5128C9005110BE /* hidebombsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hidebombsUITests.swift; sourceTree = "<group>"; };
+		FC6F460F1D5128C9005110BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6F45E71D5128C8005110BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6F45FB1D5128C9005110BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6F46061D5128C9005110BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC6F45E11D5128C8005110BE = {
+			isa = PBXGroup;
+			children = (
+				FC6F45EC1D5128C8005110BE /* hidebombs */,
+				FC6F46011D5128C9005110BE /* hidebombsTests */,
+				FC6F460C1D5128C9005110BE /* hidebombsUITests */,
+				FC6F45EB1D5128C8005110BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6F45EB1D5128C8005110BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6F45EA1D5128C8005110BE /* hidebombs.app */,
+				FC6F45FE1D5128C9005110BE /* hidebombsTests.xctest */,
+				FC6F46091D5128C9005110BE /* hidebombsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6F45EC1D5128C8005110BE /* hidebombs */ = {
+			isa = PBXGroup;
+			children = (
+				FC6F45ED1D5128C8005110BE /* AppDelegate.swift */,
+				FC6F45EF1D5128C8005110BE /* ViewController.swift */,
+				FC6F45F11D5128C8005110BE /* Main.storyboard */,
+				FC6F45F41D5128C8005110BE /* Assets.xcassets */,
+				FC6F45F61D5128C8005110BE /* LaunchScreen.storyboard */,
+				FC6F45F91D5128C8005110BE /* Info.plist */,
+			);
+			path = hidebombs;
+			sourceTree = "<group>";
+		};
+		FC6F46011D5128C9005110BE /* hidebombsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6F46021D5128C9005110BE /* hidebombsTests.swift */,
+				FC6F46041D5128C9005110BE /* Info.plist */,
+			);
+			path = hidebombsTests;
+			sourceTree = "<group>";
+		};
+		FC6F460C1D5128C9005110BE /* hidebombsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6F460D1D5128C9005110BE /* hidebombsUITests.swift */,
+				FC6F460F1D5128C9005110BE /* Info.plist */,
+			);
+			path = hidebombsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6F45E91D5128C8005110BE /* hidebombs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6F46121D5128C9005110BE /* Build configuration list for PBXNativeTarget "hidebombs" */;
+			buildPhases = (
+				FC6F45E61D5128C8005110BE /* Sources */,
+				FC6F45E71D5128C8005110BE /* Frameworks */,
+				FC6F45E81D5128C8005110BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hidebombs;
+			productName = hidebombs;
+			productReference = FC6F45EA1D5128C8005110BE /* hidebombs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC6F45FD1D5128C9005110BE /* hidebombsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6F46151D5128C9005110BE /* Build configuration list for PBXNativeTarget "hidebombsTests" */;
+			buildPhases = (
+				FC6F45FA1D5128C9005110BE /* Sources */,
+				FC6F45FB1D5128C9005110BE /* Frameworks */,
+				FC6F45FC1D5128C9005110BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6F46001D5128C9005110BE /* PBXTargetDependency */,
+			);
+			name = hidebombsTests;
+			productName = hidebombsTests;
+			productReference = FC6F45FE1D5128C9005110BE /* hidebombsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC6F46081D5128C9005110BE /* hidebombsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6F46181D5128C9005110BE /* Build configuration list for PBXNativeTarget "hidebombsUITests" */;
+			buildPhases = (
+				FC6F46051D5128C9005110BE /* Sources */,
+				FC6F46061D5128C9005110BE /* Frameworks */,
+				FC6F46071D5128C9005110BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6F460B1D5128C9005110BE /* PBXTargetDependency */,
+			);
+			name = hidebombsUITests;
+			productName = hidebombsUITests;
+			productReference = FC6F46091D5128C9005110BE /* hidebombsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6F45E21D5128C8005110BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "juan p dominguez s";
+				TargetAttributes = {
+					FC6F45E91D5128C8005110BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F4USMXTS8Y;
+					};
+					FC6F45FD1D5128C9005110BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FC6F45E91D5128C8005110BE;
+					};
+					FC6F46081D5128C9005110BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FC6F45E91D5128C8005110BE;
+					};
+				};
+			};
+			buildConfigurationList = FC6F45E51D5128C8005110BE /* Build configuration list for PBXProject "hidebombs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6F45E11D5128C8005110BE;
+			productRefGroup = FC6F45EB1D5128C8005110BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6F45E91D5128C8005110BE /* hidebombs */,
+				FC6F45FD1D5128C9005110BE /* hidebombsTests */,
+				FC6F46081D5128C9005110BE /* hidebombsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6F45E81D5128C8005110BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6F45F81D5128C8005110BE /* LaunchScreen.storyboard in Resources */,
+				FC6F45F51D5128C8005110BE /* Assets.xcassets in Resources */,
+				FC6F45F31D5128C8005110BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6F45FC1D5128C9005110BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6F46071D5128C9005110BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6F45E61D5128C8005110BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6F45F01D5128C8005110BE /* ViewController.swift in Sources */,
+				FC6F45EE1D5128C8005110BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6F45FA1D5128C9005110BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6F46031D5128C9005110BE /* hidebombsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6F46051D5128C9005110BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6F460E1D5128C9005110BE /* hidebombsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC6F46001D5128C9005110BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6F45E91D5128C8005110BE /* hidebombs */;
+			targetProxy = FC6F45FF1D5128C9005110BE /* PBXContainerItemProxy */;
+		};
+		FC6F460B1D5128C9005110BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6F45E91D5128C8005110BE /* hidebombs */;
+			targetProxy = FC6F460A1D5128C9005110BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC6F45F11D5128C8005110BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6F45F21D5128C8005110BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC6F45F61D5128C8005110BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6F45F71D5128C8005110BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6F46101D5128C9005110BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FC6F46111D5128C9005110BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6F46131D5128C9005110BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = hidebombs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.hidebombs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC6F46141D5128C9005110BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = hidebombs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.hidebombs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC6F46161D5128C9005110BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hidebombsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.hidebombsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hidebombs.app/hidebombs";
+			};
+			name = Debug;
+		};
+		FC6F46171D5128C9005110BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hidebombsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.hidebombsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hidebombs.app/hidebombs";
+			};
+			name = Release;
+		};
+		FC6F46191D5128C9005110BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hidebombsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.hidebombsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hidebombs;
+			};
+			name = Debug;
+		};
+		FC6F461A1D5128C9005110BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hidebombsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.hidebombsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hidebombs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6F45E51D5128C8005110BE /* Build configuration list for PBXProject "hidebombs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6F46101D5128C9005110BE /* Debug */,
+				FC6F46111D5128C9005110BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6F46121D5128C9005110BE /* Build configuration list for PBXNativeTarget "hidebombs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6F46131D5128C9005110BE /* Debug */,
+				FC6F46141D5128C9005110BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC6F46151D5128C9005110BE /* Build configuration list for PBXNativeTarget "hidebombsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6F46161D5128C9005110BE /* Debug */,
+				FC6F46171D5128C9005110BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC6F46181D5128C9005110BE /* Build configuration list for PBXNativeTarget "hidebombsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6F46191D5128C9005110BE /* Debug */,
+				FC6F461A1D5128C9005110BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC6F45E21D5128C8005110BE /* Project object */;
+}
